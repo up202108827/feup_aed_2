@@ -1,7 +1,3 @@
-//
-// Created by Nuno Silva on 26/12/2022.
-//
-
 #ifndef CLION_AIRPORT_H
 #define CLION_AIRPORT_H
 
@@ -11,12 +7,12 @@ private:
     string name;
     string city;
     string country;
-    string latitude;
-    string longitude;
+    double latitude;
+    double longitude;
 
 public:
-    Airport(string code,string name,string city,string country,string latitude,string longitude);
+    Airport(string code,string name,string city,string country,float latitude,float longitude);
 };
 
 
-#endif //CLION_AIRPORT_H
+#endif
